@@ -1,9 +1,9 @@
-require 'pry'
+
 def unsafe?(speed)
   if speed < 60 || speed > 40 
     return true
   else 
-    return unsafe
+    return false
   end  
 end
 
